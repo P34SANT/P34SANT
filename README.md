@@ -1,6 +1,9 @@
-`ust
+```rust
 #![no_std]
 #![no_main]
+
+use cortex_m_rt::entry;
+use panic_halt as _;
 
 #[entry]
 fn main() -> ! {
@@ -21,10 +24,10 @@ fn main() -> ! {
 
     loop {}
 }
-`
+```
 
 <div align="center">
   <a href="https://p34sant.github.io">
-    <img src="https://img.shields.io/badge/PORTFOLIO-p34sant.github.io-ff6a00?style=for-the-badge&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-p34sant.github.io-ff6a00?style=for-the-badge" alt="Portfolio" />
   </a>
 </div>
